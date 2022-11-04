@@ -1,0 +1,150 @@
+/* Tags Global */
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  background: rgba(236, 231, 85, 0.1);
+}
+main {
+  margin-bottom: 30px;
+}
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+ul {
+  padding: 0px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-family: "Josefin Slab";
+  font-size: 18px;
+}
+img {
+  width: auto;
+  height: auto;
+  display: block;
+}
+p {
+  font-family: "Montserrat";
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1500px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Header */
+.header-bg {
+  background-color: #1B2021;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.header-menu a {
+  display: inline-block;
+  padding: 16px 0px;
+  position: relative;
+  color: #DA327B;
+}
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: #ECE755;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
+  width: 100%;
+}
+
+@media (max-width:600px) {
+  .header-menu a {
+    font-size: 30px;
+    background-color: #DA327B;
+  }
+}
+
+/* Introducao */
+.introducao-conteudo {
+  margin: 60px auto;
+  text-align: center;
+}
+.introducao-conteudo h1 {
+  margin-bottom: 30px;
+}
+.introducao-conteudo p {
+  font-size: 18px;
+  width: 700px;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+
+.titulo {
+  margin-top: 50px;
+  color: #DA327B;
+  font-family: "Josefin Slab";
+  font-size: 50px;
+}
+/* Galeria */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0px auto ;
+}
+.gallery-card {
+  margin-left: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.gallery-card img {
+  box-shadow: rgba(44, 44, 44, 0.1);
+}
+.gallery-title {
+  color: #1B2021;
+  background-color: #ECE755;
+  padding: 10px;
+  font-weight: 600;
+}
+.gallery-title:hover {
+  color: #DA327B;
+}
+.gallery-text {
+  background-color: #ECE755;
+  padding: 0px 10px 20px 10px;
+  font-weight: 600;
+}
+.rodape {
+  background-color: #1B2021;
+  padding: 50px;
+  text-align: center;
+  color: #ECE755;
+  font-weight: bold;
+}
