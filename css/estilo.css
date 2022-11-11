@@ -110,7 +110,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   max-width: 1200px;
-  margin: 0px auto ;
+  margin: 0px auto;
 }
 .gallery-card {
   margin-left: 60px;
@@ -148,18 +148,37 @@ p {
    justify-content: center;
   }
   .logotipo {
-    width: 250px;
+    width: 300px;
   }
   .header-menu a {
-    font-size: 19px;
+    font-size: 18px;
   }
   .titulo {
     font-size: 30px;
   }
   .introducao-conteudo p {
-    font-size: 15px;
+    font-size: 18px;
     width: 300px;
     display: inline-block;
     line-height: 1.5;
+  }
+  .gallery {
+    background-color: #DA327B;
+    justify-content: center;
+  }
+  .gallery-card {
+    margin-left: 0px;
+  }
+  .gallery-card img {
+    width: 300px;
+  }
+  .gallery-title {
+    font-size: 18px;
+  }
+  .gallery-text {
+    font-size: 15px;
+  }
+  .rodape {
+    font-size: 18px;
   }
 }
